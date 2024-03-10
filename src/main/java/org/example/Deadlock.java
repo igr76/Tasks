@@ -14,9 +14,7 @@ public class Deadlock {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
                 synchronized (lock2) {
-
                 }
             }
             System.out.println(Thread.currentThread().getName() + " end");
